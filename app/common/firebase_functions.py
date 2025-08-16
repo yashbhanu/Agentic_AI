@@ -7,7 +7,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 cred_path = os.path.join(BASE_DIR, "serviceAccountKey.json")
 cred = credentials.Certificate(cred_path)
-FIREBASE_API_KEY = 'AIzaSyDDqVWrqCQXzix63SlVDCARqSBBXaMTSmA'
+FIREBASE_API_KEY = ''
 firebase_admin.initialize_app(cred)
 print("initialized")
 
